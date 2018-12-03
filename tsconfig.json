@@ -9,13 +9,17 @@
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "rootDirs": ["/src", "/test", "/mock","./typings"],
+    "rootDirs": ["/src", "/test", "/mock", "./typings"],
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "allowJs": true,
     "experimentalDecorators": true,
+    "strict": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
     "paths": {
       "@/*": ["./src/*"]
     }
